@@ -71,7 +71,7 @@ const App = () => {
             </div>
             <AgoraUIKit
               rtcProps={{
-                // appId: "1e6816ded05149088f32daa1c0d19456",
+                appId: "1e6816ded05149088f32daa1c0d19456",
                 channel: "test",
                 role: role ? "audience" : "host",
                 layout: isPinned ? layout.pin : layout.grid,
